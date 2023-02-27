@@ -1,0 +1,38 @@
+@import "navbar";
+@import "footer";
+@import "card";
+
+@font-face {
+  font-family: 'aqua-grotesque';
+  src: url('aqua.ttf')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'aqua-grotesque';
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.first {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.banner {
+  background-image: url('pexels-pixabay-270360.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 91.5vh;
+}
+
+a {
+  color: black;
+}
+
+.project {
+  min-width: 99vw;
+  min-height: 80vh;
+}

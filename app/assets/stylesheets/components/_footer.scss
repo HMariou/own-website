@@ -1,0 +1,39 @@
+
+footer ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(5%);
+    opacity: 1;
+
+  }
+
+}
+
+.icon {
+  font-size: 40px;
+  animation: fadeIn 1s normal forwards;
+  transition: 0.2s;
+  padding-bottom: 10px;
+}
+
+.icon:hover {
+  transition: 0.2s;
+  font-size: 50px;
+}
