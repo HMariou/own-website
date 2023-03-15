@@ -43,15 +43,31 @@ a {
 }
 
 .first {
+  margin-top: 80px;
+  margin-bottom: 30px;
   text-align: center;
   color: white;
   font-family: 'aqua-grotesque';
+  font-size: 30px;
+  padding: 0;
 }
 
 body {
-  background-color: #101010
+  background-color: #101010e6;
+  height: 93vh;
+
 }
 
 i {
   color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.invite {
+  margin: 30px;
+  text-align: center;
+  font-size: 36px;
 }

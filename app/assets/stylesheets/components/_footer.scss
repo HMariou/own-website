@@ -1,14 +1,17 @@
 footer ul {
   display: flex;
-  align-items: flex-end;
-  gap: 40px;
-
+  justify-content: center;
+  gap: 50px;
+  width: 100vw;
+  height: 7vh;
+  background-color: black;
+  border-top: 1px outset rgba(154, 153, 153, 0.195);
 }
 footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  padding-right: 50px;
+
 }
 
 @keyframes fadeIn {
@@ -18,7 +21,7 @@ footer {
     transform: translateY(100%);
   }
   100% {
-    transform: translateY(5%);
+    transform: translateY(15%);
     opacity: 1;
 
   }
@@ -30,6 +33,7 @@ footer {
   animation: fadeIn 1s normal forwards;
   transition: 0.2s;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .icon:hover {
