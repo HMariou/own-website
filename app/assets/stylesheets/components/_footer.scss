@@ -1,4 +1,4 @@
-footer ul {
+.footer ul {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -6,8 +6,10 @@ footer ul {
   height: 7vh;
   background-color: black;
   border-top: 1px outset rgba(154, 153, 153, 0.195);
+  margin-top: 10px;
+
 }
-footer {
+.footer {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -32,11 +34,16 @@ footer {
   font-size: 40px;
   animation: fadeIn 1s normal forwards;
   transition: 0.2s;
-  padding-bottom: 10px;
-  padding-top: 10px;
+
+  margin-top: 10px;
 }
 
 .icon:hover {
   transition: 0.2s;
   font-size: 50px;
+}
+
+
+.container {
+  color: white;
 }

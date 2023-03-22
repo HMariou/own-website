@@ -19,10 +19,6 @@ header {
   font-family: 'aqua-grotesque';
 }
 
-.first {
-  padding-top: 10px;
-  padding-left: 25px;
-}
 
 .banner {
   background-image: url('pexels-pixabay-270360.jpg');
@@ -43,20 +39,21 @@ a {
 }
 
 .first {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
   color: white;
   font-family: 'aqua-grotesque';
   font-size: 30px;
-  padding: 0;
+  padding-top: 10px;
+  padding-left: 25px;
 }
 
 body {
   background-color: #101010e6;
-  height: 93vh;
-
+  height: 93vh
 }
+
 
 i {
   color: white;
@@ -69,5 +66,14 @@ h2 {
 .invite {
   margin: 30px;
   text-align: center;
-  font-size: 36px;
+  font-size: 16px;
+  color: white;
+}
+
+.cvlink {
+  color: red;
+}
+
+.text {
+  font-size: 16px;
 }
