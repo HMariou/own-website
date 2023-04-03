@@ -1,6 +1,7 @@
 @import "navbar";
 @import "footer";
 @import "card";
+@import "carousel";
 
 @font-face {
   font-family: 'aqua-grotesque';
@@ -51,7 +52,7 @@ a {
 
 body {
   background-color: #101010e6;
-  height: 93vh
+  margin-bottom: -25px;
 }
 
 
@@ -75,6 +76,13 @@ h2 {
 }
 
 .texts {
-  margin: 20px;
+  margin: 0 70px;
   font-size: 26px;
+  vertical-align:middle;
+
+}
+
+.portrait {
+  min-height: 100px;
+  min-width: 50px;
 }
