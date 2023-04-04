@@ -7,6 +7,7 @@ header {
   justify-content: space-between;
   padding: 0 100px;
   border-bottom: 1px outset rgba(154, 153, 153, 0.195);
+  box-sizing: border-box;
 }
 
 .logo, .logo a {
@@ -22,6 +23,7 @@ header {
 
 .nav-bar ul {
   display: flex;
+  list-style: none;
 }
 
 .nav-bar ul li a {
@@ -42,7 +44,7 @@ header {
 }
 
 .nav-bar ul li a.active {
-  color: #1e1e1e;
+  color: #151515;
   background-color: #fefefe;
 }
 
@@ -76,7 +78,7 @@ header {
     left: 0;
     right: 0;
     width: 100vw;
-    background: #11101b;
+    background: #151515;
     transition: 0.5s;
     overflow: hidden;
     z-index: 1;
