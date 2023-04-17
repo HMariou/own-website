@@ -5,11 +5,11 @@ body {
   .container {
     max-width: 100vw;
     min-height: 100%;
-    grid-gap: 35px;
     margin: 0 auto;
     padding: 40px 0;
     display: flex;
     justify-content: center;
+    margin-right: 150px;
 
     .card {
       position: relative;
@@ -105,12 +105,14 @@ body {
   }
 }
 
+
 .face.face3 {
   background-image: url("airpnp.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
+  min-width: 400px;
 }
 
 .face.face4 {
@@ -119,6 +121,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
+  min-width: 400px;
 }
 
 .face.face5 {
@@ -127,4 +130,5 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
+  min-width: 400px;
 }
